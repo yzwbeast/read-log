@@ -22,6 +22,10 @@ A simple and efficient book tracking program to log and manage your reading reco
     ```bash
     pip install keyboard readchar
     ```
+4. Run the program:
+    ```bash
+    python3 book.py
+    ```
 ## Usage
 1.	Add a Book: Input the Chinese and English titles, author, and the program will record the start time.
 2.	View Records: List all books, including their reading status and timestamps.
