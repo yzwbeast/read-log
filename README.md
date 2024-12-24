@@ -15,14 +15,31 @@ A simple and efficient book tracking program to log and manage your reading reco
 1. Clone this repository:  
     ```bash
     git clone https://github.com/yzwbeast/BookLog.git
-    cd BookLog
+    cd read-log
     ```
 2.	Install Python 3.6 or above.
-3.	Install required dependencies:
+
+<details>
+<summary>Why Use Virtual Environments</summary>
+
+> When you encounter the "**externally-managed-environment**" error, it might be because the Python version installed via APT by the operating system enforces strict management of the system environment, preventing users from modifying system-level Python packages with pip.<br />
+> **Recommended Solution**:<br />Using a virtual environment is the cleanest and safest method. It does not affect the system Python environment and allows you to freely manage dependencies.
+</details>
+
+3.	Create a virtual environment<br />Run in the project directory:
+    ```bash
+    python3 -m venv book
+    ```
+    - `book` is the name of the virtual environment and can be replaced with any name.
+4. Activate the virtual environment:
+   ```bash
+   source book/bin/activate
+   ```
+5.	Install required dependencies:
     ```bash
     pip install keyboard readchar
     ```
-4. Run the program:
+6. Run the program:
     ```bash
     python3 book.py
     ```
