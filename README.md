@@ -14,7 +14,7 @@ A simple and efficient book tracking program to log and manage your reading reco
 ## Installation  
 1. Clone this repository:  
     ```bash
-    git clone https://github.com/yzwbeast/BookLog.git
+    git clone https://github.com/yzwbeast/read-log.git
     cd read-log
     ```
 2.	Install Python 3.6 or above.
