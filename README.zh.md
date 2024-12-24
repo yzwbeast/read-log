@@ -29,12 +29,12 @@
 
 3. 创建虚拟环境<br />在项目目录下运行：
    ```bash
-   python3 -m venv book
+   python3 -m venv read
    ```
-   - `book` 是虚拟环境的名称，可以替换为任意名字。
+   - `read` 是虚拟环境的名称，可以替换为任意名字。
 4. 激活虚拟环境：
    ```bash
-   source book/bin/activate
+   source read/bin/activate
    ```
 
 5.	安装所需依赖：
