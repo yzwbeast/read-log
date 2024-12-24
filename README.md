@@ -28,12 +28,12 @@ A simple and efficient book tracking program to log and manage your reading reco
 
 3.	Create a virtual environment<br />Run in the project directory:
     ```bash
-    python3 -m venv book
+    python3 -m venv read
     ```
-    - `book` is the name of the virtual environment and can be replaced with any name.
+    - `read` is the name of the virtual environment and can be replaced with any name.
 4. Activate the virtual environment:
    ```bash
-   source book/bin/activate
+   source read/bin/activate
    ```
 5.	Install required dependencies:
     ```bash
