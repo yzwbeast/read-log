@@ -14,7 +14,7 @@
 ## 安装  
 1. 克隆此仓库：
     ```bash
-    git clone https://github.com/yzwbeast/BookLog.git
+    git clone https://github.com/yzwbeast/read-log.git
     cd read-log
     ```
 2.	安装 Python 3.6 或更高版本。
