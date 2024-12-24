@@ -15,14 +15,33 @@
 1. 克隆此仓库：
     ```bash
     git clone https://github.com/yzwbeast/BookLog.git
-    cd BookLog
+    cd read-log
     ```
 2.	安装 Python 3.6 或更高版本。
-3.	安装所需依赖：
+
+
+<details>
+<summary>为什么推荐使用虚拟环境</summary>
+
+>当你遇到 “**externally-managed-environment**” 错误时，可能因为操作系统 使用 APT 安装的 Python 版本对系统环境进行了严格管理，防止用户通过 pip 修改系统级的 Python 包。<br />
+>要解决这个问题，**推荐方法**：<br />使用虚拟环境是最干净、安全的方法。它不会影响系统的 Python 环境，同时方便你自由管理依赖。
+</details>
+
+3. 创建虚拟环境<br />在项目目录下运行：
+   ```bash
+   python3 -m venv book
+   ```
+   - `book` 是虚拟环境的名称，可以替换为任意名字。
+4. 激活虚拟环境：
+   ```bash
+   source book/bin/activate
+   ```
+
+5.	安装所需依赖：
     ```bash
     pip install keyboard readchar
     ```
-4. 运行程序：
+6. 运行程序：
     ```bash
     python3 book.py
     ```
